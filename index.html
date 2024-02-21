@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CS559 Assignment 5 - Alejandro Aguina </title>
+    </head>
+    <body  style="background-color:#404040;">
+        <canvas id="myCanvas" width="500" height="500" style="border:1px solid rgb(255, 255, 255);"></canvas>
+        <br/>
+        <br>
+        <input id="slider1" type="range" min="-15" max="15" step="1" />
+        <br>
+        <input id="slider2" type="range" min="0" max ="190" />
+        <br>
+        <button id="btn">Update Shape Colors</button>
+        <br>
+        <p style="color:white;">The sliders alter the drawing (1 -> translation/rotation | 2 -> Camera Pos). Clicking the button toggles the shapes colors (to see individual shapes).</p>
+
+        <script type="text/javascript" src="gl-matrix-min.js"></script>
+        <script id = "module" src = "star.js"></script>
+
+    </body>
+</html>
